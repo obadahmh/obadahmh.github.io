@@ -5,11 +5,13 @@ title: About
 <section class="intro">
   <div class="intro-text">
     <h1 class="name">{{ site.author.name }}</h1>
-    <p class="role">Role &middot; Institution</p>
+    <p class="role">AI Engineer &middot; Mohamed bin Zayed University of Artificial Intelligence</p>
 
-    <p>A short paragraph introducing yourself: what you work on, where, and why it matters. This is placeholder text that will be replaced with content from your CV.</p>
+    <p>I am an AI researcher based in Abu Dhabi, working on deep learning, computer vision and representation learning. I am currently an AI Engineer at <a href="https://mbzuai.ac.ae">MBZUAI</a>, where I work on building biocomputers.</p>
 
-    <p>A second paragraph on research interests, current projects, or what you are looking for next.</p>
+    <p>My recent research focuses on interpretability: neural vision models that are interpretable by design, using concept bottlenecks and sparse autoencoders on top of foundation models such as DINOv2 and CLIP. Before that, my work centred on AI for IoT and UAV systems, including GAN-based source localization and Gaussian process sensor selection.</p>
+
+    <p>I hold an MSc in Electrical and Computer Engineering from Khalifa University and a BSc in Computer Engineering from Abu Dhabi University.</p>
 
     {% include links.html %}
   </div>

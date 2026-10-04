@@ -1,13 +1,14 @@
 # Site settings
-title: Obadah Muhammad
-description: Researcher. Publications, projects and writing.
+title: Obadah Habash
+description: AI researcher working on interpretable deep learning, computer vision and representation learning.
 author:
-  name: Obadah Muhammad
-  email: obadahmuhammad@gmail.com
+  name: Obadah Habash
+  pub_name: "O. Habash"   # how your name appears in author lists (bolded)
+  email: obadah.habash@outlook.com
   github: obadahmh
   scholar: ""        # Google Scholar profile URL
   linkedin: ""       # LinkedIn profile URL
-  orcid: ""          # ORCID iD, e.g. 0000-0000-0000-0000
+  orcid: "0000-0002-9658-6004"
 
 # Leave baseurl empty if the repo is named <username>.github.io.
 # Otherwise set it to "/<repo-name>" (GitHub Pages sets this automatically).

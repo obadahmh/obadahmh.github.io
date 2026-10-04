@@ -1,25 +1,57 @@
 # Publications, newest first. `selected: true` shows it on the home page.
-# Placeholder entries: replace with real ones from the CV.
-- title: "Title of a forthcoming paper"
-  authors: "Obadah Muhammad, Coauthor One, Coauthor Two"
-  venue: "Conference or Journal Name"
+# Optional per entry: `url` (links the title) and `links` (list of {name, url}, e.g. PDF, arXiv, Code, DOI).
+- title: "RadCBM: Hierarchical Concept Bottleneck Models with Automated Annotations for Chest X-ray Interpretation"
+  authors: "O. Habash, R. Mizouni, S. Singh, H. Otrok"
+  venue: "Manuscript"
   year: 2026
-  note: "To appear"
+  note: "In preparation"
   selected: true
-  url: ""
-  links:
-    - name: PDF
-      url: "#"
-    - name: Code
-      url: "#"
 
-- title: "Title of an earlier paper"
-  authors: "Coauthor One, Obadah Muhammad"
-  venue: "Workshop Name"
+- title: "Unsupervised Concept-based Interpretable Neural Models via Sparse Autoencoders"
+  authors: "O. Habash, R. Mizouni, S. Singh, H. Otrok"
+  venue: "Manuscript"
   year: 2025
+  note: "Submitted"
   selected: true
-  links:
-    - name: PDF
-      url: "#"
-    - name: arXiv
-      url: "#"
+
+- title: "Gaussian Process-based Online Sensor Selection for Source Localization"
+  authors: "O. Habash, R. Mizouni, S. Singh, H. Otrok"
+  venue: "Internet of Things"
+  year: 2024
+  selected: true
+
+- title: "Integrating Vision-Language Supervision for Uniform Appearance Tracking"
+  authors: "M. Alansari, …, O. Habash, et al."
+  venue: "IEEE International Conference on Image Processing (ICIP)"
+  year: 2024
+
+- title: "AI-Driven Approach for Detecting Cyber-Attacks Targeting Two-Area Four-Machine System"
+  authors: "A. Elshamy, …, O. Habash, et al."
+  venue: "IEEE KPEC"
+  year: 2024
+
+- title: "Multiple Source Localization in IoT: A Conditional GAN and Image Processing-Based Framework"
+  authors: "O. Habash, S. Singh, R. Mizouni, H. Otrok"
+  venue: "IEEE Internet of Things Journal"
+  year: 2023
+  selected: true
+
+- title: "UAV-assisted Target Localization and Tracking using Artificial Intelligence"
+  authors: "O. Habash, S. Singh, R. Mizouni, H. Otrok"
+  venue: "UAE Graduate Student Research Competition (GSRC)"
+  year: 2023
+
+- title: "Design and Analysis of a Linear Controller for Parrot AR Drone 2.0"
+  authors: "A. Abughali, O. Habash, et al."
+  venue: "ICECTA"
+  year: 2022
+
+- title: "Hydrogen-based PEM Fuel Cells for Low-cost Sustainable Powering of IoT Systems"
+  authors: "T. Basmaji, …, O. Habash, et al."
+  venue: "DASA"
+  year: 2021
+
+- title: "Sustainable Smart Advertisement Display using Deep Age and Gender Recognition"
+  authors: "M. Alhalabi, …, O. Habash, et al."
+  venue: "DASA"
+  year: 2021

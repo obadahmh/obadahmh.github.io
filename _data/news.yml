@@ -1,5 +1,9 @@
-# Short updates shown on the home page, newest first.
-- date: 2026-10-01
-  text: "Placeholder news item. Replace with a recent update."
-- date: 2026-06-01
-  text: "Another placeholder update, e.g. a paper accepted or a talk given."
+# Short updates shown on the home page, newest first. Markdown allowed in `text`.
+- date: 2026-01-01
+  text: "Joined [MBZUAI](https://mbzuai.ac.ae) as an AI Engineer, working on biocomputing and organoid intelligence."
+- date: 2024-12-01
+  text: "Paper on Gaussian process-based online sensor selection for source localization published in *Internet of Things*."
+- date: 2024-04-01
+  text: "Started as a Research Associate at Khalifa University, working on interpretable-by-design vision models."
+- date: 2023-12-01
+  text: "Received the Elite Young Researcher Award and completed my MSc at Khalifa University."

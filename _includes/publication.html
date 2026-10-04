@@ -1,4 +1,4 @@
-{%- assign me = site.author.name -%}
+{%- assign me = site.author.pub_name | default: site.author.name -%}
 {%- capture me_bold %}<strong>{{ me }}</strong>{% endcapture -%}
 <li class="pub">
   <div class="pub-title">{% if include.pub.url %}<a href="{{ include.pub.url }}">{{ include.pub.title }}</a>{% else %}{{ include.pub.title }}{% endif %}</div>

@@ -95,3 +95,7 @@ article h2 { margin-top: 2.25rem; }
   .news li, .posts li, dl.cv { grid-template-columns: 1fr; gap: 0; }
   dl.cv dd { margin-bottom: 1rem; }
 }
+
+dl.cv dd ul { margin: .3rem 0 0; padding-left: 1.1rem; font-size: .95rem; }
+dl.cv dd li { margin-bottom: .2rem; }
+.muted { color: var(--muted); font-size: .95rem; }
