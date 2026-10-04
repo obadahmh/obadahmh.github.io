@@ -10,10 +10,7 @@ author:
   linkedin: ""       # LinkedIn profile URL
   orcid: "0000-0002-9658-6004"
 
-# Leave baseurl empty if the repo is named <username>.github.io.
-# Otherwise set it to "/<repo-name>" (GitHub Pages sets this automatically).
-url: ""
-baseurl: ""
+# url and baseurl are set automatically by GitHub Pages from the repo name.
 
 permalink: /writing/:year/:title/
 markdown: kramdown
