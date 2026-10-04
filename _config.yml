@@ -1,0 +1,33 @@
+# Site settings
+title: Obadah Muhammad
+description: Researcher. Publications, projects and writing.
+author:
+  name: Obadah Muhammad
+  email: obadahmuhammad@gmail.com
+  github: obadahmh
+  scholar: ""        # Google Scholar profile URL
+  linkedin: ""       # LinkedIn profile URL
+  orcid: ""          # ORCID iD, e.g. 0000-0000-0000-0000
+
+# Leave baseurl empty if the repo is named <username>.github.io.
+# Otherwise set it to "/<repo-name>" (GitHub Pages sets this automatically).
+url: ""
+baseurl: ""
+
+permalink: /writing/:year/:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+feed:
+  path: writing/feed.xml
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

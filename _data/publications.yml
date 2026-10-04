@@ -1,0 +1,25 @@
+# Publications, newest first. `selected: true` shows it on the home page.
+# Placeholder entries: replace with real ones from the CV.
+- title: "Title of a forthcoming paper"
+  authors: "Obadah Muhammad, Coauthor One, Coauthor Two"
+  venue: "Conference or Journal Name"
+  year: 2026
+  note: "To appear"
+  selected: true
+  url: ""
+  links:
+    - name: PDF
+      url: "#"
+    - name: Code
+      url: "#"
+
+- title: "Title of an earlier paper"
+  authors: "Coauthor One, Obadah Muhammad"
+  venue: "Workshop Name"
+  year: 2025
+  selected: true
+  links:
+    - name: PDF
+      url: "#"
+    - name: arXiv
+      url: "#"

@@ -1,0 +1,12 @@
+{%- assign me = site.author.name -%}
+{%- capture me_bold %}<strong>{{ me }}</strong>{% endcapture -%}
+<li class="pub">
+  <div class="pub-title">{% if include.pub.url %}<a href="{{ include.pub.url }}">{{ include.pub.title }}</a>{% else %}{{ include.pub.title }}{% endif %}</div>
+  <div class="pub-authors">{{ include.pub.authors | replace: me, me_bold }}</div>
+  <div class="pub-venue"><em>{{ include.pub.venue }}</em>, {{ include.pub.year }}{% if include.pub.note %} &middot; {{ include.pub.note }}{% endif %}</div>
+  {%- if include.pub.links %}
+  <div class="pub-links">
+    {%- for link in include.pub.links %}<a href="{{ link.url }}">{{ link.name }}</a>{% endfor -%}
+  </div>
+  {%- endif %}
+</li>

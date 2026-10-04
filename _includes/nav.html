@@ -1,0 +1,14 @@
+<header class="site-header">
+  <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+  <nav>
+    {%- assign links = "/|About,/publications/|Publications,/writing/|Writing,/cv/|CV" | split: "," -%}
+    {%- for l in links -%}
+      {%- assign p = l | split: "|" -%}
+      {%- assign active = false -%}
+      {%- if p[0] == "/" and page.url == "/" -%}{%- assign active = true -%}
+      {%- elsif p[0] != "/" and page.url contains p[0] -%}{%- assign active = true -%}
+      {%- endif -%}
+      <a href="{{ p[0] | relative_url }}"{% if active %} aria-current="page"{% endif %}>{{ p[1] }}</a>
+    {%- endfor -%}
+  </nav>
+</header>
