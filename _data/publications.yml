@@ -1,4 +1,4 @@
-# Publications, newest first. `selected: true` shows it on the home page.
+# Publications, newest first. Shown on the Publications page.
 # Optional per entry: `url` (links the title) and `links` (list of {name, url}, e.g. PDF, arXiv, Code, DOI).
 - title: "RadCBM: Hierarchical Concept Bottleneck Models with Automated Annotations for Chest X-ray Interpretation"
   authors: "O. Habash, R. Mizouni, S. Singh, H. Otrok"

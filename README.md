@@ -9,7 +9,7 @@ Personal academic website, built with Jekyll and served by GitHub Pages (no them
 | Name, email, profile links | `_config.yml` (`author:`) |
 | Bio and home page | `index.md` |
 | News items | `_data/news.yml` |
-| Publications | `_data/publications.yml` (`selected: true` shows on home page) |
+| Publications | `_data/publications.yml` |
 | Writing / blog posts | `_posts/YYYY-MM-DD-title.md` |
 | CV page | `cv.md`; drop the PDF at `assets/cv.pdf` |
 | Styles | `assets/css/style.css` |

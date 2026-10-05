@@ -7,11 +7,11 @@ title: About
     <h1 class="name">{{ site.author.name }}</h1>
     <p class="role">AI Engineer &middot; Mohamed bin Zayed University of Artificial Intelligence</p>
 
-    <p>I am an AI researcher based in Abu Dhabi, working on deep learning, computer vision and representation learning. I am currently an AI Engineer at <a href="https://mbzuai.ac.ae">MBZUAI</a>, where I work on building biocomputers.</p>
+    <p>I'm an AI engineer at <a href="https://mbzuai.ac.ae">MBZUAI</a> in Abu Dhabi. These days I'm part of a team building biocomputers.</p>
 
-    <p>My recent research focuses on interpretability: neural vision models that are interpretable by design, using concept bottlenecks and sparse autoencoders on top of foundation models such as DINOv2 and CLIP. Before that, my work centred on AI for IoT and UAV systems, including GAN-based source localization and Gaussian process sensor selection.</p>
+    <p>Most of my research has been about interpretability. I want models whose decisions I can actually inspect, so I've spent the last couple of years building vision models that are interpretable by design, using concept bottlenecks and sparse autoencoders on top of models like DINOv2 and CLIP. Before that I worked on AI for IoT and drones: locating radiation sources with GANs, and deciding which sensors to listen to with Gaussian processes.</p>
 
-    <p>I hold an MSc in Electrical and Computer Engineering from Khalifa University and a BSc in Computer Engineering from Abu Dhabi University.</p>
+    <p>I'm also interested in open-source models and what it takes to put them to use. That means getting them to run well on the hardware people actually have, serving them reliably, and checking that they still hold up once they leave the benchmark.</p>
 
     {% include links.html %}
   </div>
@@ -26,15 +26,6 @@ title: About
   </ul>
 </section>
 
-<section>
-  <h2>Selected publications</h2>
-  <ul class="pubs">
-    {%- for pub in site.data.publications %}{% if pub.selected %}
-    {% include publication.html pub=pub %}
-    {%- endif %}{% endfor %}
-  </ul>
-  <p class="more"><a href="{{ '/publications/' | relative_url }}">All publications &rarr;</a></p>
-</section>
 
 {%- if site.posts.size > 0 %}
 <section>
