@@ -1,7 +1,7 @@
 <header class="site-header">
   <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
   <nav>
-    {%- assign links = "/|About,/publications/|Publications,/writing/|Writing,/cv/|CV" | split: "," -%}
+    {%- assign links = "/|About,/publications/|Publications,/writing/|Writing" | split: "," -%}
     {%- for l in links -%}
       {%- assign p = l | split: "|" -%}
       {%- assign active = false -%}
