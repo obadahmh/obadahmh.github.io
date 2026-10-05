@@ -9,7 +9,7 @@ title: About
 
     <p>I'm an AI engineer at <a href="https://mbzuai.ac.ae">MBZUAI</a> in Abu Dhabi, where I work on biocomputing.</p>
 
-    <p>My research is mostly about interpretability in computer vision. I build models whose predictions can be traced back to concepts people understand, using concept bottlenecks and sparse autoencoders on top of foundation models such as DINOv2 and CLIP. Earlier, I worked on machine learning for IoT and UAV systems, mainly source localization and sensor selection.</p>
+    <p>My background is in deep learning and computer vision. I started out working on machine learning for IoT and UAV systems, mainly source localization and sensor selection, and later spent some time on interpretability, building vision models that explain their predictions through concepts people understand.</p>
 
     <p>I'm also interested in open-source models and how they are deployed in practice: making them run efficiently, serving them reliably, and evaluating them on real workloads.</p>
   </div>
