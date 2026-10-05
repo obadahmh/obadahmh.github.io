@@ -62,7 +62,10 @@ code { font-size: .85em; background: var(--rule); padding: .1em .3em; border-rad
 hr { border: 0; border-top: 1px solid var(--rule); }
 
 /* Links row */
-.links { list-style: none; padding: 0; margin: 1.5rem 0 0; display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; font-family: var(--sans); font-size: .9rem; }
+.links { list-style: none; padding: 0; margin: 3.5rem 0 0; display: flex; flex-wrap: wrap; gap: 1.1rem; }
+.links a { display: inline-flex; color: var(--muted); }
+.links a:hover, .links a:focus-visible { color: var(--accent); }
+.links svg { width: 22px; height: 22px; }
 
 /* Lists */
 ul.news, ul.posts, ul.pubs { list-style: none; padding: 0; margin: 0; }

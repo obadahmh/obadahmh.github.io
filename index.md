@@ -7,13 +7,11 @@ title: About
     <h1 class="name">{{ site.author.name }}</h1>
     <p class="role">AI Engineer &middot; Mohamed bin Zayed University of Artificial Intelligence</p>
 
-    <p>I'm an AI engineer at <a href="https://mbzuai.ac.ae">MBZUAI</a> in Abu Dhabi. These days I'm part of a team building biocomputers.</p>
+    <p>I'm an AI engineer at <a href="https://mbzuai.ac.ae">MBZUAI</a> in Abu Dhabi, where I work on biocomputing.</p>
 
-    <p>Most of my research has been about interpretability. I want models whose decisions I can actually inspect, so I've spent the last couple of years building vision models that are interpretable by design, using concept bottlenecks and sparse autoencoders on top of models like DINOv2 and CLIP. Before that I worked on AI for IoT and drones: locating radiation sources with GANs, and deciding which sensors to listen to with Gaussian processes.</p>
+    <p>My research is mostly about interpretability in computer vision. I build models whose predictions can be traced back to concepts people understand, using concept bottlenecks and sparse autoencoders on top of foundation models such as DINOv2 and CLIP. Earlier, I worked on machine learning for IoT and UAV systems, mainly source localization and sensor selection.</p>
 
-    <p>I'm also interested in open-source models and what it takes to put them to use. That means getting them to run well on the hardware people actually have, serving them reliably, and checking that they still hold up once they leave the benchmark.</p>
-
-    {% include links.html %}
+    <p>I'm also interested in open-source models and how they are deployed in practice: making them run efficiently, serving them reliably, and evaluating them on real workloads.</p>
   </div>
 </section>
 
@@ -37,3 +35,5 @@ title: About
   </ul>
 </section>
 {%- endif %}
+
+{% include links.html %}
