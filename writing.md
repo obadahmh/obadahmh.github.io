@@ -3,8 +3,6 @@ layout: page
 title: Writing
 permalink: /writing/
 ---
-<p class="lede">Essays, notes and other pieces.</p>
-
 {%- if site.posts.size == 0 %}
 <p>Nothing here yet.</p>
 {%- endif %}
