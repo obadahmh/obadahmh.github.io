@@ -5,8 +5,6 @@ title: About
 <section class="intro">
   <div class="intro-text">
     <h1 class="name">{{ site.author.name }}</h1>
-    <p class="role">AI Engineer &middot; Mohamed bin Zayed University of Artificial Intelligence</p>
-
     <p>I'm an AI engineer at <a href="https://mbzuai.ac.ae">MBZUAI</a> in Abu Dhabi, where I work on biocomputing.</p>
 
     <p>My background is in deep learning and computer vision. I started out working on machine learning for IoT and UAV systems, mainly source localization and sensor selection, and later spent some time on interpretability, building vision models that explain their predictions through concepts people understand.</p>
